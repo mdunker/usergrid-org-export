@@ -1,0 +1,9 @@
+hostname=REPLACE_WITH_HOSTNAME
+#ignore=app1/collection1,app2/*,*/notifications
+org=REPLACE_WITH_ORGNAME
+#app=REPLACE_WITH_APPNAME_IF_SINGLE_APP
+clientid=REPLACE_WITH_ORG_CLIENTID
+clientsecret=REPLACE_WITH_ORG_CLIENTSECRET
+limit=100      # number per request to Usergrid
+perfile=10000  # number of entities per file written
+minfiledigits=4 # first entity/collection file will be 0000.jsonl
